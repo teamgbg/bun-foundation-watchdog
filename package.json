@@ -1,0 +1,64 @@
+{
+  "_generated": {
+    "system": "package-json@1.0.0",
+    "status": "generated",
+    "edit": "edit src/ — dependencies and exports derive from imports; everything else preserved"
+  },
+  "name": "@teamscala/watchdog",
+  "capability": "Periodic health probe primitive with central registry and degraded/recovered lifecycle. The single sanctioned watchdog surface.",
+  "tier": "foundation",
+  "type": "module",
+  "version": "1.0.52",
+  "description": "Periodic health probe primitive with central registry and degraded/recovered lifecycle. The single sanctioned watchdog surface.",
+  "imports": {
+    "#watchdog/*": "./src/*",
+    "#watchdog/*.ts": "./src/*.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bun-types": "*",
+    "@happy-dom/global-registrator": "*",
+    "@testing-library/react": "*"
+  },
+  "exports": {
+    "./configure": {
+      "types": "./src/configure.d.ts",
+      "default": "./src/configure.ts"
+    },
+    "./configure.ts": {
+      "types": "./src/configure.d.ts",
+      "default": "./src/configure.ts"
+    },
+    "./create-watchdog": {
+      "types": "./src/create-watchdog.d.ts",
+      "default": "./src/create-watchdog.ts"
+    },
+    "./create-watchdog.ts": {
+      "types": "./src/create-watchdog.d.ts",
+      "default": "./src/create-watchdog.ts"
+    },
+    "./registry": {
+      "types": "./src/registry.d.ts",
+      "default": "./src/registry.ts"
+    },
+    "./registry.ts": {
+      "types": "./src/registry.d.ts",
+      "default": "./src/registry.ts"
+    },
+    "./types": {
+      "types": "./src/types.d.ts",
+      "default": "./src/types.ts"
+    },
+    "./types.ts": {
+      "types": "./src/types.d.ts",
+      "default": "./src/types.ts"
+    }
+  },
+  "repository": "https://github.com/teamgbg/bun-foundation-watchdog",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}

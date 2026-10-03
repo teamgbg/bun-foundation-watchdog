@@ -33,7 +33,7 @@
 		"./types": "./src/types.ts",
 		"./types.ts": "./src/types.ts"
 	},
-	"repository": "https://github.com/teamgbg/bun-foundation-watchdog",
+	"repository": "https://github.com/teamgbg/foundation-watchdog-ts",
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org"
 	}
